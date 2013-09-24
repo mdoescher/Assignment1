@@ -1,0 +1,16 @@
+{
+  "name": "Assignment1",
+  "version": "0.0.0",
+  "description": "Simulation of the position and velocity of particles bouncing around in a container",
+  "main": "TestTheSimulator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bouncing",
+    "particle",
+    "simulation"
+  ],
+  "author": "Michael Doescher",
+  "license": "BSD-2-Clause"
+}

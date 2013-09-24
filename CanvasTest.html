@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Canvas Testing</title>
+	</head>
+
+	
+	<body>
+		<canvas id="canvas" width="500" height="500" ></canvas>
+		
+		<p>Add a particle to the simulation</p>
+		<form>
+			X Coordinate: <input type="text" name = "xPosition" id = "xPosition"><br>
+			Y Coordinate: <input type="text" name = "yPosition" id = "yPosition"><br>
+			X Velocity: <input type="text" name = "xVelocity" id = "xVelocity"><br>
+			Y Velocity: <input type="text" name = "yVelocity" id = "yVelocity"><br>
+		</form>
+		<a id="addParticle" style="background-color:#66ff66;">Add this Particle</a>
+		<a id="clearParticles" style="background-color:#66ff66;">Clear All Particles</a>
+		<hr>
+
+		<p>Update the Ground Normal</p>
+		<form>
+			X Coordinate: <input type="text" name = "xGround" id = "xGround"><br>
+			Y Coordinate: <input type="text" name = "yGround" id = "yGround"><br>
+		</form>
+		<a id="updateGroundNormal" style="background-color:#66ff66;">Update the Ground Normal</a>
+		<hr>
+		
+		<p>Update the Time Step</p>
+		<form>
+			Time Step: <input type="text" name = "timeStep" id = "timeStep"><br>	
+		</form>
+		<a id="updateTimeStep" style="background-color:#66ff66;">Update the Time Step</a>
+		<hr>
+		
+
+		
+	<script type="text/javascript" src = "CompiledScript.js"></script>
+	</body>
+</html>
